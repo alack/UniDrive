@@ -1,4 +1,6 @@
 {
     "google_client_id": "",
-    "google_client_secret": ""
+    "google_client_secret": "",
+    "dropbox_client_id": "",
+    "dropbox_client_secret": ""
 }

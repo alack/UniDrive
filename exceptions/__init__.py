@@ -1,3 +1,3 @@
-from . store_exception import DuplicateEntryError,NoEntryError
+from . store_exception import *
 
-__all__ = ['DuplicateEntryError', 'NoEntryError']
+__all__ = ['DuplicateEntryError', 'NoEntryError', 'DiskFullError']
