@@ -143,3 +143,8 @@ class BaseTestStoreMethods:
             test_path = pathlib.PurePath('/sample1')
             with self.assertRaises(NoEntryError):
                 data = self.store.download_file(test_path)
+
+        def test_get_list_not_exists(self):
+            test_samples_dir = pathlib.PurePath('/samples')
+            with self.assertRaises(NoEntryError):
+                entries = self.store.get_list(test_samples_dir)
