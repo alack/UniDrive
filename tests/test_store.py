@@ -144,7 +144,7 @@ class BaseTestStoreMethods:
             with self.assertRaises(NoEntryError):
                 data = self.store.download_file(test_path)
 
-        def test_get_list_not_exists(self):
+        def test_get_list_on_invalid_path(self):
             test_samples_dir = pathlib.PurePath('/samples')
             with self.assertRaises(NoEntryError):
                 entries = self.store.get_list(test_samples_dir)
