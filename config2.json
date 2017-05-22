@@ -1,0 +1,12 @@
+[
+	{
+		"store_class": "google",
+		"client_id": "922938236157-5dfa1mp0g5tgh48b4uh9ue19csgin6ah.apps.googleusercontent.com",
+		"client_secret": "DYEW6YvJ0CK2Qe-B50GggWqT"
+	},
+    {
+    	"store_class": "dropbox",
+    	"client_id": "cep4re0edd3vsmp",
+	    "client_secret": "7029x3nth5mykw9"
+	}
+]
